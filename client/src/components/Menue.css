@@ -1,0 +1,59 @@
+/* Menue.css */
+
+.Menu-container {
+    display: flex;
+    min-height:90.5vh;
+    
+  }
+  
+  .snavbar {
+    background-color: #007BFF;
+    margin: 5px;
+    color: white;
+    padding: 10px;
+    width: 200px; /* Set the width of the menu as needed */
+  }
+  
+  .snavbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .snavbar li {
+    margin-bottom: 10px;
+  }
+  
+  .snavbar button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+  }
+  
+  .snavbar button:hover {
+    background-color: #8ff0ff;
+    color: black;
+  }
+  
+  .Setting_content {
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(237, 246, 255);
+  }
+  
+  .setHead {
+    color: #333;
+  }
+
+  .snavbar ul li button.active {
+    background-color: #8ff0ff;
+    color: black;
+    /* Additional styles for the active button */
+  }
+  
+  /* Add any additional styles as needed */
+  

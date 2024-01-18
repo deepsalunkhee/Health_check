@@ -1,0 +1,6 @@
+.graphcontainer{
+    max-height: 83vh;
+    overflow-y: scroll;
+    background-color:  rgb(255, 255, 238);;
+    border-radius: 10px;
+}
